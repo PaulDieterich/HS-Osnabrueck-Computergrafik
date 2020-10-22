@@ -68,10 +68,10 @@ RM = /home/pjd-popos/Documents/clion-2020.2.3/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pjd-popos/CLionProjects/untitled
+CMAKE_SOURCE_DIR = /home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pjd-popos/CLionProjects/untitled/cmake-build-debug
+CMAKE_BINARY_DIR = /home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pjd-popos/CLionProjects/untitled/cmake-build-debug/CMakeFiles /home/pjd-popos/CLionProjects/untitled/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/cmake-build-debug/CMakeFiles /home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pjd-popos/CLionProjects/untitled/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -131,125 +131,206 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named untitled
+# Target rules for targets named CGPrak1
 
 # Build rule for target.
-untitled: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 untitled
-.PHONY : untitled
+CGPrak1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CGPrak1
+.PHONY : CGPrak1
 
 # fast build rule for target.
-untitled/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
-.PHONY : untitled/fast
+CGPrak1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGPrak1.dir/build.make CMakeFiles/CGPrak1.dir/build
+.PHONY : CGPrak1/fast
 
-color.o: color.cpp.o
+src/color.o: src/color.cpp.o
 
-.PHONY : color.o
-
-# target to build an object file
-color.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/color.cpp.o
-.PHONY : color.cpp.o
-
-color.i: color.cpp.i
-
-.PHONY : color.i
-
-# target to preprocess a source file
-color.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/color.cpp.i
-.PHONY : color.cpp.i
-
-color.s: color.cpp.s
-
-.PHONY : color.s
-
-# target to generate assembly for a file
-color.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/color.cpp.s
-.PHONY : color.cpp.s
-
-main.o: main.cpp.o
-
-.PHONY : main.o
+.PHONY : src/color.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/color.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGPrak1.dir/build.make CMakeFiles/CGPrak1.dir/src/color.cpp.o
+.PHONY : src/color.cpp.o
 
-main.i: main.cpp.i
+src/color.i: src/color.cpp.i
 
-.PHONY : main.i
+.PHONY : src/color.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/color.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGPrak1.dir/build.make CMakeFiles/CGPrak1.dir/src/color.cpp.i
+.PHONY : src/color.cpp.i
 
-main.s: main.cpp.s
+src/color.s: src/color.cpp.s
 
-.PHONY : main.s
+.PHONY : src/color.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/color.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGPrak1.dir/build.make CMakeFiles/CGPrak1.dir/src/color.cpp.s
+.PHONY : src/color.cpp.s
 
-test1.o: test1.cpp.o
+src/main.o: src/main.cpp.o
 
-.PHONY : test1.o
+.PHONY : src/main.o
 
 # target to build an object file
-test1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/test1.cpp.o
-.PHONY : test1.cpp.o
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGPrak1.dir/build.make CMakeFiles/CGPrak1.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
 
-test1.i: test1.cpp.i
+src/main.i: src/main.cpp.i
 
-.PHONY : test1.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-test1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/test1.cpp.i
-.PHONY : test1.cpp.i
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGPrak1.dir/build.make CMakeFiles/CGPrak1.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-test1.s: test1.cpp.s
+src/main.s: src/main.cpp.s
 
-.PHONY : test1.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-test1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/test1.cpp.s
-.PHONY : test1.cpp.s
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGPrak1.dir/build.make CMakeFiles/CGPrak1.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
-vector.o: vector.cpp.o
+src/rgbimage.o: src/rgbimage.cpp.o
 
-.PHONY : vector.o
+.PHONY : src/rgbimage.o
 
 # target to build an object file
-vector.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/vector.cpp.o
-.PHONY : vector.cpp.o
+src/rgbimage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGPrak1.dir/build.make CMakeFiles/CGPrak1.dir/src/rgbimage.cpp.o
+.PHONY : src/rgbimage.cpp.o
 
-vector.i: vector.cpp.i
+src/rgbimage.i: src/rgbimage.cpp.i
 
-.PHONY : vector.i
+.PHONY : src/rgbimage.i
 
 # target to preprocess a source file
-vector.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/vector.cpp.i
-.PHONY : vector.cpp.i
+src/rgbimage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGPrak1.dir/build.make CMakeFiles/CGPrak1.dir/src/rgbimage.cpp.i
+.PHONY : src/rgbimage.cpp.i
 
-vector.s: vector.cpp.s
+src/rgbimage.s: src/rgbimage.cpp.s
 
-.PHONY : vector.s
+.PHONY : src/rgbimage.s
 
 # target to generate assembly for a file
-vector.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/vector.cpp.s
-.PHONY : vector.cpp.s
+src/rgbimage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGPrak1.dir/build.make CMakeFiles/CGPrak1.dir/src/rgbimage.cpp.s
+.PHONY : src/rgbimage.cpp.s
+
+src/test1.o: src/test1.cpp.o
+
+.PHONY : src/test1.o
+
+# target to build an object file
+src/test1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGPrak1.dir/build.make CMakeFiles/CGPrak1.dir/src/test1.cpp.o
+.PHONY : src/test1.cpp.o
+
+src/test1.i: src/test1.cpp.i
+
+.PHONY : src/test1.i
+
+# target to preprocess a source file
+src/test1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGPrak1.dir/build.make CMakeFiles/CGPrak1.dir/src/test1.cpp.i
+.PHONY : src/test1.cpp.i
+
+src/test1.s: src/test1.cpp.s
+
+.PHONY : src/test1.s
+
+# target to generate assembly for a file
+src/test1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGPrak1.dir/build.make CMakeFiles/CGPrak1.dir/src/test1.cpp.s
+.PHONY : src/test1.cpp.s
+
+src/test2.o: src/test2.cpp.o
+
+.PHONY : src/test2.o
+
+# target to build an object file
+src/test2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGPrak1.dir/build.make CMakeFiles/CGPrak1.dir/src/test2.cpp.o
+.PHONY : src/test2.cpp.o
+
+src/test2.i: src/test2.cpp.i
+
+.PHONY : src/test2.i
+
+# target to preprocess a source file
+src/test2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGPrak1.dir/build.make CMakeFiles/CGPrak1.dir/src/test2.cpp.i
+.PHONY : src/test2.cpp.i
+
+src/test2.s: src/test2.cpp.s
+
+.PHONY : src/test2.s
+
+# target to generate assembly for a file
+src/test2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGPrak1.dir/build.make CMakeFiles/CGPrak1.dir/src/test2.cpp.s
+.PHONY : src/test2.cpp.s
+
+src/test3.o: src/test3.cpp.o
+
+.PHONY : src/test3.o
+
+# target to build an object file
+src/test3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGPrak1.dir/build.make CMakeFiles/CGPrak1.dir/src/test3.cpp.o
+.PHONY : src/test3.cpp.o
+
+src/test3.i: src/test3.cpp.i
+
+.PHONY : src/test3.i
+
+# target to preprocess a source file
+src/test3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGPrak1.dir/build.make CMakeFiles/CGPrak1.dir/src/test3.cpp.i
+.PHONY : src/test3.cpp.i
+
+src/test3.s: src/test3.cpp.s
+
+.PHONY : src/test3.s
+
+# target to generate assembly for a file
+src/test3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGPrak1.dir/build.make CMakeFiles/CGPrak1.dir/src/test3.cpp.s
+.PHONY : src/test3.cpp.s
+
+src/vector.o: src/vector.cpp.o
+
+.PHONY : src/vector.o
+
+# target to build an object file
+src/vector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGPrak1.dir/build.make CMakeFiles/CGPrak1.dir/src/vector.cpp.o
+.PHONY : src/vector.cpp.o
+
+src/vector.i: src/vector.cpp.i
+
+.PHONY : src/vector.i
+
+# target to preprocess a source file
+src/vector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGPrak1.dir/build.make CMakeFiles/CGPrak1.dir/src/vector.cpp.i
+.PHONY : src/vector.cpp.i
+
+src/vector.s: src/vector.cpp.s
+
+.PHONY : src/vector.s
+
+# target to generate assembly for a file
+src/vector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGPrak1.dir/build.make CMakeFiles/CGPrak1.dir/src/vector.cpp.s
+.PHONY : src/vector.cpp.s
 
 # Help Target
 help:
@@ -259,19 +340,28 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... untitled"
-	@echo "... color.o"
-	@echo "... color.i"
-	@echo "... color.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... test1.o"
-	@echo "... test1.i"
-	@echo "... test1.s"
-	@echo "... vector.o"
-	@echo "... vector.i"
-	@echo "... vector.s"
+	@echo "... CGPrak1"
+	@echo "... src/color.o"
+	@echo "... src/color.i"
+	@echo "... src/color.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/rgbimage.o"
+	@echo "... src/rgbimage.i"
+	@echo "... src/rgbimage.s"
+	@echo "... src/test1.o"
+	@echo "... src/test1.i"
+	@echo "... src/test1.s"
+	@echo "... src/test2.o"
+	@echo "... src/test2.i"
+	@echo "... src/test2.s"
+	@echo "... src/test3.o"
+	@echo "... src/test3.i"
+	@echo "... src/test3.s"
+	@echo "... src/vector.o"
+	@echo "... src/vector.i"
+	@echo "... src/vector.s"
 .PHONY : help
 
 

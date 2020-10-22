@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/CGPrak1.dir/src/color.cpp.o CMakeFiles/CGPrak1.dir/src/rgbimage.cpp.o CMakeFiles/CGPrak1.dir/src/vector.cpp.o CMakeFiles/CGPrak1.dir/src/test1.cpp.o CMakeFiles/CGPrak1.dir/src/test2.cpp.o CMakeFiles/CGPrak1.dir/src/test3.cpp.o CMakeFiles/CGPrak1.dir/src/main.cpp.o  -o CGPrak1 

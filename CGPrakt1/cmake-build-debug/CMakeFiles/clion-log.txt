@@ -1,4 +1,4 @@
-/home/pjd-popos/Documents/clion-2020.2.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/pjd-popos/CLionProjects/untitled
+/home/pjd-popos/Documents/clion-2020.2.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/pjd-popos/CLionProjects/untitled/cmake-build-debug
+-- Build files have been written to: /home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/cmake-build-debug

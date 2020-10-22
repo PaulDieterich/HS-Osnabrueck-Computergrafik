@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/pjd-popos/CLionProjects/untitled/cmake-build-debug"/>
+				<Option working_dir="/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/pjd-popos/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pjd-popos/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/pjd-popos/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pjd-popos/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/pjd-popos/CLionProjects/untitled/cmake-build-debug"/>
+				<Option working_dir="/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/pjd-popos/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pjd-popos/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/pjd-popos/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pjd-popos/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/pjd-popos/CLionProjects/untitled/cmake-build-debug"/>
+				<Option working_dir="/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/pjd-popos/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pjd-popos/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/pjd-popos/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pjd-popos/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="untitled">
-				<Option output="/home/pjd-popos/CLionProjects/untitled/cmake-build-debug/untitled" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/pjd-popos/CLionProjects/untitled/cmake-build-debug"/>
+			<Target title="CGPrak1">
+				<Option output="/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/cmake-build-debug/CGPrak1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,15 +53,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/pjd-popos/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pjd-popos/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/pjd-popos/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pjd-popos/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/cmake-build-debug/Makefile&quot;  VERBOSE=1 CGPrak1"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="untitled/fast">
-				<Option output="/home/pjd-popos/CLionProjects/untitled/cmake-build-debug/untitled" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/pjd-popos/CLionProjects/untitled/cmake-build-debug"/>
+			<Target title="CGPrak1/fast">
+				<Option output="/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/cmake-build-debug/CGPrak1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -75,35 +75,53 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/pjd-popos/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pjd-popos/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/pjd-popos/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pjd-popos/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/cmake-build-debug/Makefile&quot;  VERBOSE=1 CGPrak1/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/pjd-popos/CLionProjects/untitled/color.cpp">
-			<Option target="untitled"/>
+		<Unit filename="/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/src/color.cpp">
+			<Option target="CGPrak1"/>
 		</Unit>
-		<Unit filename="/home/pjd-popos/CLionProjects/untitled/color.h">
-			<Option target="untitled"/>
+		<Unit filename="/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/src/color.h">
+			<Option target="CGPrak1"/>
 		</Unit>
-		<Unit filename="/home/pjd-popos/CLionProjects/untitled/main.cpp">
-			<Option target="untitled"/>
+		<Unit filename="/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/src/main.cpp">
+			<Option target="CGPrak1"/>
 		</Unit>
-		<Unit filename="/home/pjd-popos/CLionProjects/untitled/test1.cpp">
-			<Option target="untitled"/>
+		<Unit filename="/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/src/rgbimage.cpp">
+			<Option target="CGPrak1"/>
 		</Unit>
-		<Unit filename="/home/pjd-popos/CLionProjects/untitled/test1.h">
-			<Option target="untitled"/>
+		<Unit filename="/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/src/rgbimage.h">
+			<Option target="CGPrak1"/>
 		</Unit>
-		<Unit filename="/home/pjd-popos/CLionProjects/untitled/vector.cpp">
-			<Option target="untitled"/>
+		<Unit filename="/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/src/test1.cpp">
+			<Option target="CGPrak1"/>
 		</Unit>
-		<Unit filename="/home/pjd-popos/CLionProjects/untitled/vector.h">
-			<Option target="untitled"/>
+		<Unit filename="/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/src/test1.h">
+			<Option target="CGPrak1"/>
 		</Unit>
-		<Unit filename="/home/pjd-popos/CLionProjects/untitled/CMakeLists.txt">
+		<Unit filename="/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/src/test2.cpp">
+			<Option target="CGPrak1"/>
+		</Unit>
+		<Unit filename="/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/src/test2.h">
+			<Option target="CGPrak1"/>
+		</Unit>
+		<Unit filename="/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/src/test3.cpp">
+			<Option target="CGPrak1"/>
+		</Unit>
+		<Unit filename="/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/src/test3.h">
+			<Option target="CGPrak1"/>
+		</Unit>
+		<Unit filename="/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/src/vector.cpp">
+			<Option target="CGPrak1"/>
+		</Unit>
+		<Unit filename="/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/src/vector.h">
+			<Option target="CGPrak1"/>
+		</Unit>
+		<Unit filename="/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

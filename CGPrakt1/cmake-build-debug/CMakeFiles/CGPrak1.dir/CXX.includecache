@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/src/color.h
+iostream
+-
+
+/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/src/rgbimage.cpp
+rgbimage.h
+/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/src/rgbimage.h
+color.h
+/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/src/color.h
+assert.h
+/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/src/assert.h
+
+/home/pjd-popos/Documents/Semester4/Computergrafik/HS-Osnabrueck-Computergrafik/CGPrakt1/src/rgbimage.h
+iostream
+-
+
