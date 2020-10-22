@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/color.cpp.dir/rgbimage.cpp.o CMakeFiles/color.cpp.dir/test1.cpp.o CMakeFiles/color.cpp.dir/vector.cpp.o CMakeFiles/color.cpp.dir/main.cpp.o  -o color.cpp 

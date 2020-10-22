@@ -58,7 +58,7 @@ bool RGBImage::saveToDisk(const char* Filename)
 
 		static unsigned char fileHeader[] = {
 			0, 0,		// bfType - Signatur BM
-			0, 0, 0, 0, // bfSize - röße der BMP-Datei in Byte
+			0, 0, 0, 0, // bfSize - rï¿½ï¿½e der BMP-Datei in Byte
 			0, 0, 0, 0, // bfReserved  - reserved
 			0, 0, 0, 0, // bfOffSits - Offset der Bilddatei in Byte von Begin der Datei
 		};
@@ -75,14 +75,14 @@ bool RGBImage::saveToDisk(const char* Filename)
 		unsigned char infoHeader[] = {
 			0, 0, 0, 0,	// biSize - Groesse der BITMAPINFOHEADER-Struktur in Byte
 			0, 0, 0, 0,	// biWidth - Breite der Bitmap in Pixel
-			0, 0, 0, 0,	// biHeight - Höhe der Bitmap in Piel 
+			0, 0, 0, 0,	// biHeight - Hï¿½he der Bitmap in Piel 
 			0, 0,		// biPlanes - number of color planes
 			0, 0,		// biBitCount - anzahl bits pro pixel
 			0, 0, 0, 0, // biCompresion - 0(BI_RGB)/1(RLE8)/2(BI_RLE4)/3(BI_BITFIELDS)
 			0, 0, 0, 0, // biSizeImage - Groesse der Bildaten in Byte
-			0, 0, 0, 0, // biXPelsPerMeter - Horizontale Auflösung in Pixel pro Meter
-			0, 0, 0, 0, // biYPelsPerMeter - Vertikale Auflösung in Pixel pro Meter
-			0, 0, 0, 0, // biClrUsed - Wenn biBitCount=1: 0. biBitCount=4 oder 8: die Anzahl der Einträge der Farbtabelle; 0 bedeutet die maximale Anzahl (2, 16 oder 256).
+			0, 0, 0, 0, // biXPelsPerMeter - Horizontale Auflï¿½sung in Pixel pro Meter
+			0, 0, 0, 0, // biYPelsPerMeter - Vertikale Auflï¿½sung in Pixel pro Meter
+			0, 0, 0, 0, // biClrUsed - Wenn biBitCount=1: 0. biBitCount=4 oder 8: die Anzahl der Eintrï¿½ge der Farbtabelle; 0 bedeutet die maximale Anzahl (2, 16 oder 256).
 			0, 0, 0, 0, // biClrImportant - Die anzahl saemtlicher im Bild verendeten Farben.
 		};
 
@@ -116,5 +116,5 @@ bool RGBImage::saveToDisk(const char* Filename)
 			}
 			fclose(imageFile);
 		}
-		return false;
+		return true;
 	}

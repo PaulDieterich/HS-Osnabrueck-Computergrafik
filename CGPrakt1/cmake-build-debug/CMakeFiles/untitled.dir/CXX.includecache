@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pjd-popos/CLionProjects/untitled/vector.cpp
+vector.h
+/home/pjd-popos/CLionProjects/untitled/vector.h
+assert.h
+-
+math.h
+-
+
+/home/pjd-popos/CLionProjects/untitled/vector.h
+iostream
+-
+

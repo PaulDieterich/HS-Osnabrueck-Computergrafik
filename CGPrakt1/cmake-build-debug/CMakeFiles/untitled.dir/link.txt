@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/untitled.dir/color.cpp.o CMakeFiles/untitled.dir/vector.cpp.o CMakeFiles/untitled.dir/test1.cpp.o CMakeFiles/untitled.dir/main.cpp.o  -o untitled 
